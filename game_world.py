@@ -7,7 +7,7 @@ from pico2d import *
 world = [[],[]] # 게임 내의 모든 객체를 담는 리스트
 
 def add_object(o, depth = 0): # 게임 내에 객체를 추가하는 함수
-    world.append(o)
+    world[depth].append(o)
 
 def add_objects(ol, depth=0): # 게임 내에 객체 리스트를 추가하는 함수
     world[depth] += ol
