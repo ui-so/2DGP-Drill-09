@@ -4,7 +4,7 @@ from pico2d import *
 
 # world[0] = 0 layer
 # world[1] = 1 layer
-world = [[],[]] # 게임 내의 모든 객체를 담는 리스트
+world = [[],[],[]] # 게임 내의 모든 객체를 담는 리스트
 
 def add_object(o, depth = 0): # 게임 내에 객체를 추가하는 함수
     world[depth].append(o)
