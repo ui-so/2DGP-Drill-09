@@ -26,9 +26,11 @@ def reset_world():
     boy = Boy()
     game_world.add_object(boy,1)  # 게임 월드에 소년 객체 추가
 
-    grass = Grass()
-    game_world.add_object(grass,0) # 게임 월드에 잔디 객체 추가
+    grass_1 = Grass(400, 80)
+    game_world.add_object(grass_1,0) # 게임 월드에 잔디 객체 추가
 
+    grass_2 = Grass()
+    game_world.add_object(grass_2,2) # 게임 월드에 잔디 객체 추가
 
 
 
