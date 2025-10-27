@@ -33,7 +33,6 @@ def reset_world():
     game_world.add_object(grass_2,2) # 게임 월드에 잔디 객체 추가
 
 
-
 def update_world():
     game_world.update()
 
